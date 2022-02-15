@@ -3,6 +3,8 @@ import {
   SafeAreaView,
   Text,
 } from 'react-native';
+// import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
+// import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 class App extends React.Component {
   constructor(props) {
