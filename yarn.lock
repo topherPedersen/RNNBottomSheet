@@ -5662,7 +5662,7 @@
   dependencies:
     "react-native-navigation" "^7.23.1-hotfix.1"
 
-"react-native-navigation@^7.23.1-hotfix.1":
+"react-native-navigation@^7.23.1-hotfix.1", "react-native-navigation@^7.25.4":
   "integrity" "sha512-MnNtEqxK57wRZSA+LeAFtXD19ImZSQ2rN8aZbzQw/0Mm9JURzt4pqxkdqaOSz0EdCdfewooYGFL8qrmsl9Nm/g=="
   "resolved" "https://registry.npmjs.org/react-native-navigation/-/react-native-navigation-7.25.4.tgz"
   "version" "7.25.4"
