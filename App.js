@@ -3,8 +3,8 @@ import {
   SafeAreaView,
   Text,
 } from 'react-native';
-// import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 // import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,4 +20,10 @@ class App extends React.Component {
   }
 }
 
-export default App;
+/*
+ * Must wrap application entry point with gestureHandlerRootHOC
+ * https://docs.swmansion.com/react-native-gesture-handler/docs/#installation
+ */
+const AppContainer = gestureHandlerRootHOC(() => (<App />));
+
+export default AppContainer;
